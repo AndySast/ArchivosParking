@@ -1,0 +1,56 @@
+@import '../App.scss';
+
+#first{
+  font-size: $headline4;
+  font-family: oxygen-bold, cursive;
+  margin: 1rem 0 1rem 1rem;
+  color: $strongBlue-color;
+}
+.title{
+  height: 67px;
+  font-family: oxygen-bold, cursive;
+  font-size: $headline4;
+  width: 100%;
+  background-color: $blue-color;
+  color: $black-color;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+p{
+  margin: 0 0 0 1rem;
+}
+.subtitle{
+  font-size: $headline5;
+  font-family: oxygen-bold, cursive;
+  margin: 1rem 0 0 1rem;
+}
+.text{
+  font-size: $headline4;
+  color: $strongBlue-color;
+  margin: 1rem 0 0 3rem;
+  font-family: oxygen-bold, cursive;
+}
+.button{
+  font-size: $headline5;
+  font-family: oxygen-bold, cursive;
+  margin: 3rem 0 0 0rem;
+  color: $light-color;
+  background-color: $strongBlue-color;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+@media (min-width: 960px) {
+  #first{
+    font-size: $headline3;
+  }
+  
+}
